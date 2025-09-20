@@ -6,6 +6,10 @@ struct RecipesSampleApp: App {
     @State private var selectedSidebarItem: SidebarItem? = SidebarItem.all
     @State private var selectedRecipeId: Recipe.ID?
 
+    var num : Int {
+        return 42
+    }   
+    
     var body: some Scene {
         WindowGroup {
             NavigationSplitView {
